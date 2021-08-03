@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chatbot</title>
+	<link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+	  <!-- Compiled and minified CSS -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	  <!-- Compiled and minified JavaScript -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	  
+</head>
+
+<body>
+	<button class="open-button" onclick="openForm()">Got a question?</button>
+	<div id="container" class="container chat-popup">
+		<div id="chat" class="chat">
+			<div id="messages" class="messages"></div>
+			<input id="input" type="text" placeholder="You can type your queries here !" autocomplete="off" autofocus="true" />
+		</div>
+		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+	</div>
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="speech.js" ></script>
+
+</html>
